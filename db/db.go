@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/config"
+	"github.com/ericjovian/gin-template/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

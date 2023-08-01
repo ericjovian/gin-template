@@ -1,4 +1,4 @@
-module git.garena.com/sea-labs-id/batch-05/gin-template
+module github.com/ericjovian/gin-template
 
 go 1.18
 

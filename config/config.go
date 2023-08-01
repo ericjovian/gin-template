@@ -3,7 +3,7 @@ package config
 import (
 	"os"
 
-	_ "github.com/joho/godotenv/autoload"
+	"github.com/joho/godotenv"
 )
 
 type dbConfig struct {
@@ -22,14 +22,19 @@ func getENV(key, defaultVal string) string {
 	return env
 }
 
-var (
-	ENV      = getENV("ENV", "testing")
-	AppName  = "sea-labs-library"
-	DBConfig = dbConfig{
-		Host:     getENV("DB_HOST", "localhost"),
-		User:     getENV("DB_USER", "postgres"),
-		Password: getENV("DB_PASSWORD", "postgres"),
-		DBName:   getENV("DB_NAME", "library_db"),
-		Port:     getENV("DB_PORT", "5432"),
+func init() {
+	err := godotenv.Load()
+	if err != nil {
+		panic("Error loading .env file")
 	}
-)
+
+	ENV = getENV("ENV", "testing")
+	AppName = "gin-template-library"
+	DBConfig = dbConfig{
+		Host:     getENV("DB_HOST"),
+		User:     getENV("DB_USER"),
+		Password: getENV("DB_PASSWORD"),
+		DBName:   getENV("DB_NAME"),
+		Port:     getENV("DB_PORT"),
+	}
+}

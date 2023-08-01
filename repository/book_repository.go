@@ -3,8 +3,8 @@ package repository
 import (
 	"errors"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/entity"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/utils"
+	"github.com/ericjovian/gin-template/entity"
+	"github.com/ericjovian/gin-template/utils"
 	"gorm.io/gorm"
 )
 

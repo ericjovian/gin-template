@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/dto"
-	mocks "git.garena.com/sea-labs-id/batch-05/gin-template/mocks/usecase"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/server"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/testutils"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/utils"
+	"github.com/ericjovian/gin-template/dto"
+	mocks "github.com/ericjovian/gin-template/mocks/usecase"
+	"github.com/ericjovian/gin-template/server"
+	"github.com/ericjovian/gin-template/testutils"
+	"github.com/ericjovian/gin-template/utils"
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 )

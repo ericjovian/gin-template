@@ -1,8 +1,8 @@
 package server
 
 import (
-	"git.garena.com/sea-labs-id/batch-05/gin-template/handler"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/usecase"
+	"github.com/ericjovian/gin-template/handler"
+	"github.com/ericjovian/gin-template/usecase"
 	"github.com/gin-gonic/gin"
 )
 

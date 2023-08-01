@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	entity "git.garena.com/sea-labs-id/batch-05/gin-template/entity"
+	entity "github.com/ericjovian/gin-template/entity"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -1,6 +1,6 @@
 package handler
 
-import "git.garena.com/sea-labs-id/batch-05/gin-template/usecase"
+import "github.com/ericjovian/gin-template/usecase"
 
 type Handler struct {
 	bookUsecase         usecase.BookUsecase

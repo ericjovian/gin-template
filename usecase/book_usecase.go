@@ -1,10 +1,10 @@
 package usecase
 
 import (
-	"git.garena.com/sea-labs-id/batch-05/gin-template/dto"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/entity"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/repository"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/utils"
+	"github.com/ericjovian/gin-template/dto"
+	"github.com/ericjovian/gin-template/entity"
+	"github.com/ericjovian/gin-template/repository"
+	"github.com/ericjovian/gin-template/utils"
 )
 
 type BookUsecase interface {

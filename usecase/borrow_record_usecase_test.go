@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"bou.ke/monkey"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/dto"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/entity"
-	mocks "git.garena.com/sea-labs-id/batch-05/gin-template/mocks/repository"
-	mockUsecase "git.garena.com/sea-labs-id/batch-05/gin-template/mocks/usecase"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/usecase"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/utils"
+	"github.com/ericjovian/gin-template/dto"
+	"github.com/ericjovian/gin-template/entity"
+	mocks "github.com/ericjovian/gin-template/mocks/repository"
+	mockUsecase "github.com/ericjovian/gin-template/mocks/usecase"
+	"github.com/ericjovian/gin-template/usecase"
+	"github.com/ericjovian/gin-template/utils"
 	"github.com/stretchr/testify/assert"
 )
 

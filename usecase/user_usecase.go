@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"git.garena.com/sea-labs-id/batch-05/gin-template/entity"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/repository"
+	"github.com/ericjovian/gin-template/entity"
+	"github.com/ericjovian/gin-template/repository"
 )
 
 type UserUsecase interface {

@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/dto"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/entity"
-	mocks "git.garena.com/sea-labs-id/batch-05/gin-template/mocks/repository"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/usecase"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/utils"
+	"github.com/ericjovian/gin-template/dto"
+	"github.com/ericjovian/gin-template/entity"
+	mocks "github.com/ericjovian/gin-template/mocks/repository"
+	"github.com/ericjovian/gin-template/usecase"
+	"github.com/ericjovian/gin-template/utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,9 +3,9 @@ package server
 import (
 	"log"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/db"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/repository"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/usecase"
+	"github.com/ericjovian/gin-template/db"
+	"github.com/ericjovian/gin-template/repository"
+	"github.com/ericjovian/gin-template/usecase"
 	"github.com/gin-gonic/gin"
 )
 

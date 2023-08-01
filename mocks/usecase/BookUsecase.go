@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	dto "git.garena.com/sea-labs-id/batch-05/gin-template/dto"
-	entity "git.garena.com/sea-labs-id/batch-05/gin-template/entity"
+	dto "github.com/ericjovian/gin-template/dto"
+	entity "github.com/ericjovian/gin-template/entity"
 
 	mock "github.com/stretchr/testify/mock"
 )

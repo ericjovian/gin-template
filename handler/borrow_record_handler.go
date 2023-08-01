@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/dto"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/utils"
+	"github.com/ericjovian/gin-template/dto"
+	"github.com/ericjovian/gin-template/utils"
 	"github.com/gin-gonic/gin"
 )
 

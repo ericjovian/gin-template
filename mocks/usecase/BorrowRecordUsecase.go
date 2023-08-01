@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	dto "git.garena.com/sea-labs-id/batch-05/gin-template/dto"
+	dto "github.com/ericjovian/gin-template/dto"
 	mock "github.com/stretchr/testify/mock"
 )
 

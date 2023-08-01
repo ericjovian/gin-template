@@ -3,9 +3,9 @@ package usecase_test
 import (
 	"testing"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/entity"
-	mocks "git.garena.com/sea-labs-id/batch-05/gin-template/mocks/repository"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/usecase"
+	"github.com/ericjovian/gin-template/entity"
+	mocks "github.com/ericjovian/gin-template/mocks/repository"
+	"github.com/ericjovian/gin-template/usecase"
 	"github.com/stretchr/testify/assert"
 )
 

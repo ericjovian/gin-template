@@ -3,7 +3,7 @@ package entity
 import (
 	"time"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/dto"
+	"github.com/ericjovian/gin-template/dto"
 	"gorm.io/gorm"
 )
 

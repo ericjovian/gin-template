@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/db"
-	"git.garena.com/sea-labs-id/batch-05/gin-template/server"
+	"github.com/ericjovian/gin-template/db"
+	"github.com/ericjovian/gin-template/server"
 )
 
 func main() {

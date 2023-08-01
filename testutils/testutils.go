@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"git.garena.com/sea-labs-id/batch-05/gin-template/server"
+	"github.com/ericjovian/gin-template/server"
 	"github.com/gin-gonic/gin"
 )
 
