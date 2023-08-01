@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/ericjovian/gin-template/config"
-	"gorm.io/driver/postgres"
+	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )
@@ -33,7 +33,7 @@ func Connect() (err error) {
 		c.DBName,
 		c.Port,
 	)
-	db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{
+	db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{
 		Logger: getLogger(),
 	})
 	return
